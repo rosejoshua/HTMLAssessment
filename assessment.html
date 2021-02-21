@@ -60,6 +60,66 @@
     </table>
     <p></p>
     <h2>LIST</h2>
+    <ul>
+      <li>
+        <img width="100px" src="https://upload.wikimedia.org/wikipedia/en/d/d9/Cleveland_Browns_logo.svg" alt="Cleveland Browns NFL team logo">
+        <br>
+        <a href="https://www.clevelandbrowns.com/">Cleveland Browns</a>
+        <ul>
+          <li>Coach: Kevin Stefanski</li>
+          <li>QB: </li>
+          <ol>
+            <li>Case Keenum</li>
+            <li>Baker Mayfield</li>
+            <li>Kyle Lauletta</li>
+          </ol>
+        </ul>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <img width="100px" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg" alt="Chicago Bears NFL team logo">
+        <br>
+        <a href="https://www.chicagobears.com/">Chicago Bears</a>
+        <ul>
+          <li>Coach: Matt Nagy</li>
+          <li>QB:</li>
+          <ol>
+            <li>Mitchell Trubisky</li>
+            <li>Nick Foles</li>
+            <li>Tyler Bray</li>
+            <li>Kyle Sloter</li>
+          </ol>
+        </ul>
+      </li>
+    </ul>
     <h2>FORM</h2>
+    <form class="input" action="repos.html" method="post">
+      First: <input type="text" name="firstName" value="">
+      Last: <input type="text" name="lastName" value="">
+      <br>
+      <label for="favoriteSport">Favorite Sport: </label>
+      <br>
+      <select name="sports" id="sports">
+        <option value="baseball">Baseball</option>
+        <option value="soccer">Soccer</option>
+        <option value="americanFootball">American Football</option>
+        <option value="cricket">Cricket</option>
+        <option value="basketball">Basketball</option>
+      </select>
+      <br>
+      <label for="iHave">I have:</label>
+      <input type="checkbox" id="attended" name="attended" value="attended"><label for="attended">Attended</label>
+      <input type="checkbox" id="played" name="played" value="played"><label for="played">Played</label>
+      <input type="checkbox" id="coached" name="coached" value="coached"><label for="coached">Coached</label>
+      <input type="checkbox" id="betOn" name="betOn" value="betOn"><label for="betOn">Bet on</label>
+      <br>
+      <label for="preferred">For this sport I prefer the:</label>
+        <input type="radio" name="preferredVenue" value="preferredVenue" checked><label for="amateur">Amateur </label>
+        <input type="radio" name="preferredVenue" value="preferredVenue"><label for="college">College </label>
+        <input type="radio" name="preferredVenue" value="preferredVenue"><label for="professional">Professional </label>
+        <br>
+        <button type="submit">Submit Query</button>
+    </form>
   </body>
 </html>
