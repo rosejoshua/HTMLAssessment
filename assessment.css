@@ -35,6 +35,16 @@ blockquote {
 ul > li > img, br {
   display: none;
 }
-ul:nth-child(1) li:nth-child(1) {
-  display: none;
+ul#teamRoster > li:nth-child(1) {
+  background-size: contain;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+}
+ul#teamRoster > li:nth-child(2) {
+  background-size: contain;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-repeat: no-repeat;
+}
+ul#checkbox-grid {
+  list-style-type: none;
 }
