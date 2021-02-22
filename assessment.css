@@ -1,0 +1,40 @@
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(246, 48, 21);
+  font-family: sans-serif;
+  font-family: serif;
+}
+table {
+  border-style: groove;
+  border-width: 10px;
+}
+
+th {
+  border-style: solid;
+  border-color: black;
+  font-weight: bold;
+  background-color: rgb(60, 200, 188);
+  padding: 2px;
+}
+td {
+  text-align: center;
+}
+ul {
+  list-style-type: square;
+}
+a:hover {
+  background-color: rgb(70, 70, 70);
+  color: rgb(255, 31, 0);
+  text-decoration: none;
+}
+blockquote {
+  background-color: rgb(30, 30, 30);
+  color: rgb(60, 200, 188);
+  padding-left: 6px;
+  padding-bottom: 3px;
+}
+ul > li > img, br {
+  display: none;
+}
+ul:nth-child(1) li:nth-child(1) {
+  display: none;
+}
